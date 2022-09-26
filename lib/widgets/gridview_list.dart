@@ -8,9 +8,10 @@ class GridList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          // title: Text("Kembali"),
           leading: new IconButton(
             onPressed: () => Navigator.of(context).pop(),
-            icon: new Icon(Icons.arrow_back_ios, color: Colors.grey),
+            icon: new Icon(Icons.arrow_back_ios, color: Colors.black),
           ),
         ),
         body: Padding(
